@@ -1,0 +1,85 @@
+.container{
+    margin: auto;
+    max-width: 1100;
+    overflow: auto;
+    padding: 0 10px;
+}
+.text-primary{
+    color: #f23849;
+    font-family: power-bass;
+}
+.lead{
+    font-size: 30px;
+    color: #ffff;
+    
+}
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: #474747;
+    padding: 15px 20px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: #f23849;
+    color: #474747;
+   
+}
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #474747;
+    color: #fff;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #474747;
+}
+.bg-primary{
+    background: #f23849;
+    color: #474747;
+}
+.clr{
+    clear: both;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    text-align: center;
+}
+.box-img{
+    margin-bottom: 5px ;
+    width: 90px;
+    height: 120px;
+}
+.box h3{
+    margin-top: 10px;
+    font-family: power-bass;
+    font-size: 35px;
+}
+.box p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+.l-heading{font-size: 50px;}
+
+@media(max-width: 768px){
+    .box{
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,68 @@
+
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px; 
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#showcase .showcase-content h1{
+    font-size: 80px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+/* Home Info*/
+#home-info{
+    height: 560px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/selective-focus-of-a-boxer-s-fist-3562117.jpg') no-repeat center center/cover;;
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    font-size: 20px;
+    line-height: 25px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 40px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+@media(max-width: 768px){
+    #home-info {
+        height: 600px;
+    }
+    #home-info .info-img{
+        display: none;
+    }
+    #home-info .info-content{
+        float: none;
+        width: 100%;      
+    }
+}
+@media(max-width: 741px){
+    #showcase .showcase-content{
+        color: #fff;
+        text-align: center;
+        padding-top: 50px;
+        
+    }
+    #showcase .showcase-content h1{
+        font-size: 50px;
+        line-height: 1.2em;
+    }
+}

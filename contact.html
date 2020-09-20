@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Welcome To Champions Home">
+    <meta name="keywords" content="gym, jordan, amman, boxing">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/shared/reset.css">
+    <link rel="stylesheet" href="css/shared/utillity.css">
+    <link rel="stylesheet" href="css/shared/nav.css">
+    <link rel="stylesheet" href="css/shared/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Elite knights | contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <a href="index.html"><img class="logo" src="img/Gray Logo.png" alt=""></a>
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="clr"></div>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p class="text form-text">Please Fill Out The Form To <span class="text-primary">Contact</span> Us</p>
+            <form action="POST" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <img class="box-img" src="./icons/location.svg">
+                <h3>location</h3>
+                <p class="text">Amman - Jordan</p>
+            </div>
+            <div class="box">
+                <img class="box-img" src="./icons/phone.svg">
+                <h3>Phone</h3>
+                <p class="text">(+962)787853728</p></div>
+            <div class="box">
+                <img class="box-img" src="./icons/email.svg">
+                <h3>Email</h3>
+                <p class="text">elite@knights.com</p></div>
+        </div>
+    </section>
+    <footer id="main-footer">
+        <p>Gym Elite Knights &copy; 2020, All Right Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@font-face {
+    src: url(../fonts/BebasNeue/BebasNeue-Regular.ttf);
+    font-family: bebas-reguler;
+}
+
+@font-face {
+    src: url(../fonts/BebasNeue/BebasNeue-Bold.ttf);
+    font-family: bebas-bold;
+}
+
+@font-face {
+    src: url(../fonts/BebasNeue/BebasNeue-Thin.ttf);
+    font-family: bebas-thin;
+}
+@font-face {
+    src: url(../fonts/power-bass-font/PowerBass-8AJg.ttf);
+    font-family: power-bass;
+}
